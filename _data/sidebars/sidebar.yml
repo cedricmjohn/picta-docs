@@ -1,0 +1,88 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Picta
+  version: 0.1
+  folders:
+  - title: Getting Started
+    output: web, pdf
+    folderitems:
+    - title: Introduction
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: Your First Chart
+      url: /first_chart.html
+      output: web, pdf
+
+  - title: Chart Components
+    output: web, pdf
+    folderitems:
+    - title: Canvas
+      url: /canvas.html
+      output: web, pdf
+      type: homepage
+
+    - title: Chart
+      url: /chart.html
+      output: web, pdf
+      type: homepage
+
+    - title: Chart Layout
+      url: /layout.html
+      output: web, pdf
+      type: homepage
+
+    - title: Series
+      url: /series.html
+      output: web, pdf
+      type: homepage
+
+    - title: Config
+      url: /config.html
+      output: web, pdf
+      type: homepage
+
+  - title: Creating Charts
+    output: web, pdf
+    folderitems:
+    - title: 2D Charts
+      url: /2D.html
+      output: web, pdf
+      type: homepage
+
+    - title: 3D Charts
+      url: /3D.html
+      output: web, pdf
+      type: homepage
+      
+    - title: Animations
+      url: /animations.html
+      output: web, pdf
+      type: homepage
+
+  - title: Common Examples
+    output: web, pdf
+    folderitems:
+    - title: Common Examples
+      url:  /common_examples
+      output: web, pdf
+      type: homepage
+
+  - title: Styling
+    output: web, pdf
+    folderitems:
+    - title: Marker Styles
+      url:  /marker_styles
+      output: web, pdf
+      type: homepage
+
+  - title: Roadmap
+    output: web, pdf
+    folderitems:
+    - title: Roadmap
+      url:  /roadmap
+      output: web, pdf
+      type: homepage

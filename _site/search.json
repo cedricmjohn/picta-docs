@@ -1,0 +1,189 @@
+[
+
+
+{
+"title": "2D Charts",
+"tags": "",
+"keywords": "",
+"url": "2D.html",
+"summary": "2D charts can be easily created to explore data relationships"
+}
+,
+
+
+
+{
+"title": "3D Charts",
+"tags": "",
+"keywords": "",
+"url": "3D.html",
+"summary": "3D charts can easily be created to visualize data in a new way"
+}
+,
+
+
+
+
+
+{
+"title": "Animations",
+"tags": "",
+"keywords": "",
+"url": "animations.html",
+"summary": "All plots can be animated as a sequence of frames"
+}
+,
+
+
+
+{
+"title": "The Picta Canvas",
+"tags": "",
+"keywords": "",
+"url": "canvas.html",
+"summary": "The Canvas is the most general component in the Picta library"
+}
+,
+
+
+
+{
+"title": "Chart",
+"tags": "",
+"keywords": "",
+"url": "chart.html",
+"summary": "Charts structure how the graph is rendered"
+}
+,
+
+
+
+{
+"title": "Common Examples",
+"tags": "",
+"keywords": "",
+"url": "common_examples.html",
+"summary": "This section will outline how to create your first chart using the Picta library."
+}
+,
+
+
+
+{
+"title": "Config",
+"tags": "",
+"keywords": "",
+"url": "config.html",
+"summary": "Config specifies interactivity of a chart"
+}
+,
+
+
+
+
+
+{
+"title": "Your First Chart",
+"tags": "",
+"keywords": "",
+"url": "first_chart.html",
+"summary": "This section will outline how to create your first chart using the Picta library."
+}
+,
+
+
+
+{
+"title": "Picta",
+"tags": "getting_started",
+"keywords": "homepage",
+"url": "index.html",
+"summary": "Picta is a a graphing library for Scala. It is designed so that charts are composable and easy to use."
+}
+,
+
+
+
+{
+"title": "Introduction",
+"tags": "",
+"keywords": "",
+"url": "introduction.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Chart Layout",
+"tags": "",
+"keywords": "",
+"url": "layout.html",
+"summary": "Chart Layouts specify in detail how the plot will be rendered"
+}
+,
+
+
+
+{
+"title": "Marker Styles",
+"tags": "",
+"keywords": "",
+"url": "marker_styles.html",
+"summary": "This section will outline how markers may be styled, and what the different options for marker shapes are"
+}
+,
+
+
+
+
+
+{
+"title": "Roadmap",
+"tags": "",
+"keywords": "",
+"url": "roadmap.html",
+"summary": "This section will outline what to expect in future releases of Picta."
+}
+,
+
+
+
+
+
+{
+"title": "Series",
+"tags": "",
+"keywords": "",
+"url": "series.html",
+"summary": "Series components wrap data and specify how they should be transformed"
+}
+,
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+"title": "",
+"tags": "",
+"keywords": "",
+"url": "assetscssstyle.css",
+"summary": ""
+}
+
+
+
+
+
+
+]

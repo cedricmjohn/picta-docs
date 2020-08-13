@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+
+
+  
+  
+  <url>
+    <loc>http://localhost:4000/2D.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/3D.html</loc>
+  </url>
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/animations.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/canvas.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/chart.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/common_examples.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/config.html</loc>
+  </url>
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/first_chart.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/index.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/introduction.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/layout.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/marker_styles.html</loc>
+  </url>
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/roadmap.html</loc>
+  </url>
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/series.html</loc>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/assets/css/style.css</loc>
+  </url>
+  
+  
+</urlset>
