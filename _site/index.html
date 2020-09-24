@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Picta is a a graphing library for Scala. It is designed so that charts are composable and easy to use.">
+<meta name="description" content="Picta is a graphing library for Scala. It is designed to be easy to use and allows charts to be composed from simpler components.">
 <meta name="keywords" content="getting_started,  homepage">
 <title>Picta | A Graphing Library for Scala</title>
 <link rel="stylesheet" href="css/syntax.css">
@@ -128,7 +128,7 @@
                 
                 
                 
-                <li><a href="https://acse-fk4517.github.io/picta-api/" target="_blank" rel="noopener">API</a></li>
+                <li><a href="/picta-docs/pages/api/index.html" target="_blank" rel="noopener">API</a></li>
                 
                 
                 
@@ -175,7 +175,7 @@
                 
 
 <ul id="mysidebar" class="nav">
-  <li class="sidebarTitle">Picta 0.1</li>
+  <li class="sidebarTitle">Picta 0.1.1</li>
   
   
   
@@ -277,22 +277,6 @@
       
   
   <li>
-      <a title="Common Examples" href="#">Common Examples</a>
-      <ul>
-          
-          
-          
-          <li><a title="Common Examples" href="common_examples">Common Examples</a></li>
-          
-          
-          
-          
-      </ul>
-   </li>
-     
-      
-  
-  <li>
       <a title="Styling" href="#">Styling</a>
       <ul>
           
@@ -309,12 +293,51 @@
       
   
   <li>
+      <a title="Example Gallery" href="#">Example Gallery</a>
+      <ul>
+          
+          
+          
+          <li><a title="Example Gallery" href="example_gallery">Example Gallery</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
       <a title="Roadmap" href="#">Roadmap</a>
       <ul>
           
           
           
           <li><a title="Roadmap" href="roadmap">Roadmap</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Contributing" href="#">Contributing</a>
+      <ul>
+          
+          
+          
+          <li><a title="Contributing to the Docs" href="contributing_docs">Contributing to the Docs</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Contributing to the Library" href="contributing_library">Contributing to the Library</a></li>
           
           
           
@@ -349,7 +372,7 @@
 <div class="post-content">
 
    
-    <div class="summary">Picta is a a graphing library for Scala. It is designed so that charts are composable and easy to use.</div>
+    <div class="summary">Picta is a graphing library for Scala. It is designed to be easy to use and allows charts to be composed from simpler components.</div>
    
 
     
@@ -382,11 +405,13 @@ $('#toc').on('click', 'a', function() {
 
    <h2 id="what-is-picta">What is Picta?</h2>
 
-<p>Picta is a graphing library for Scala built by the Carbonate Research Lab at Imperial College London.</p>
+<p>Picta is a graphing library for the Scala programming language built by the Carbonate Research Lab at Imperial College London.</p>
 
 <p>The goal of Picta is to be an easy to use, composable graphics library.</p>
 
-<p>We felt that such a library was missing from the Scala, and indeed the JVM platform.</p>
+<p>If you would like to see an overview of the types of charts that can be created by Picta, navigate, click on the <code class="language-plaintext highlighter-rouge">Example Gallery</code> link on the left sidebar.</p>
+
+<p>We felt that such a library was missing from the Scala, and indeed the JVM ecosystem.</p>
 
 <p>Picta provides the following benefits over existing libraries:</p>
 
@@ -398,19 +423,22 @@ $('#toc').on('click', 'a', function() {
     <p><strong>Interactive Plots</strong>: Charts are interactive and can be used to actively explore the data sets.</p>
   </li>
   <li>
+    <p><strong>Extensive Functionality</strong>: Picta can create many different types of plots that are useful for exploratory visual analysis.</p>
+  </li>
+  <li>
     <p><strong>Jupyter Integration</strong>: Picta fully supports the Almond kernel, and so can become an integral part of the scientific workflow.</p>
   </li>
 </ul>
 
-<p>Often libraries are limited in functionality, require large amounts of boilerplate, or are just fundamentally <strong><em>not fun</em></strong> to use.</p>
+<p>Often libraries are limited in functionality, require large amounts of boilerplate, or are just fundamentally <strong>not_fun_to_use</strong>.</p>
 
 <h2 id="how-does-it-work">How does it work?</h2>
 
-<p>Under the hood Picta uses Plotlyjs for rendering. Every Picta chart is therefore valid HTML that can simply be displayed in your browser. No need for clunky JVM GUI dependencies that make you feel like you are programming back in the 90s. Picta simply uses the browser you love to display the charts you need.</p>
+<p>Under the hood Picta uses <a href="https://plotly.com/javascript/">Plotly.js</a> for rendering. Every Picta plot is therefore valid HTML that can simply be displayed in your browser. No need for clunky JVM GUI dependencies that make you feel like you are programming back in the 90s. Picta simply uses the browser you love to display the charts you need.</p>
 
-<p>In addition to rendering stand alone html pages, Picta also work’s with the Almond Jupyter Kernel. This allows the library to be used in way traditionally associated with Python’s matplotlib library.</p>
+<p>In addition to rendering standalone HTML pages, Picta also work’s with the Almond Jupyter Kernel. This allows the library to be used in way traditionally associated with Python’s matplotlib library.</p>
 
-<p>Support for further Scala Notebook kernels, such as Zeppelin will be added in the future.</p>
+<p>Support for further Scala Notebook kernels, such as <a href="https://zeppelin.apache.org">Zeppelin</a> will be added in the future.</p>
 
 <h2 id="how-is-it-different-to-other-libraries">How is it different to other libraries?</h2>
 
@@ -428,7 +456,7 @@ $('#toc').on('click', 'a', function() {
 
 <p>Add the following lines to your sbt project:</p>
 
-<div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">libraryDependencies</span>  <span class="o">+=</span> <span class="s">"org.carbonateresearch"</span> <span class="o">%%</span> <span class="s">"picta"</span> <span class="o">%</span> <span class="s">"0.1"</span>
+<div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">libraryDependencies</span>  <span class="o">+=</span> <span class="s">"org.carbonateresearch"</span> <span class="o">%%</span> <span class="s">"picta"</span> <span class="o">%</span> <span class="s">"0.1.1"</span>
 <span class="n">resolvers</span> <span class="o">+=</span> <span class="s">"jitpack"</span> <span class="n">at</span> <span class="s">"https://jitpack.io"</span>
 </code></pre></div></div>
 
@@ -442,7 +470,7 @@ $('#toc').on('click', 'a', function() {
   <span class="s">"https://jitpack.io"</span>
 <span class="o">))</span>
 
-<span class="k">import</span> <span class="nn">$ivy.</span> <span class="n">`org.carbonateresearch::picta:0.1`</span>
+<span class="k">import</span> <span class="nn">$ivy.</span> <span class="n">`org.carbonateresearch::picta:0.1.1`</span>
 </code></pre></div></div>
 
 <!-- 
@@ -508,13 +536,6 @@ $('#toc').on('click', 'a', function() {
 
 
 
-[common_examples]: common_examples
-
-
-
-
-
-
 [marker_styles]: marker_styles
 
 
@@ -522,7 +543,26 @@ $('#toc').on('click', 'a', function() {
 
 
 
+[example_gallery]: example_gallery
+
+
+
+
+
+
 [roadmap]: roadmap
+
+
+
+
+
+
+[contributing_docs]: contributing_docs
+
+
+
+
+[contributing_library]: contributing_library
 
 
 
@@ -571,7 +611,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2020 Carbonate Research Lab, Imperial College London. All rights reserved. <br />
- Site last generated: Aug 13, 2020 <br />
+ Site last generated: Aug 25, 2020 <br />
 <p><img id="footer-logo" src="images/company_logo.png" alt="Company logo"/></p>
                 </div>
             </div>

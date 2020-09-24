@@ -38,13 +38,25 @@
   
   
   <url>
-    <loc>http://localhost:4000/common_examples.html</loc>
+    <loc>http://localhost:4000/config.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/config.html</loc>
+    <loc>http://localhost:4000/contributing_docs.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/contributing_library.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/example_gallery.html</loc>
   </url>
   
   

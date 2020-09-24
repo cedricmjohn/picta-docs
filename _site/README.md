@@ -1,6 +1,3 @@
-# picta-docs
-This repo holds the documentation site for the Picta Graphing Library.
-
 ## Introduction
 
 These docs are made using [Jekyll](https://jekyllrb.com).
